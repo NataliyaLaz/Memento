@@ -13,6 +13,11 @@
 		88CB7A08291171BD00A7719D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CB7A06291171BD00A7719D /* Main.storyboard */; };
 		88CB7A0A291171BE00A7719D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CB7A09291171BE00A7719D /* Assets.xcassets */; };
 		88CB7A0D291171BE00A7719D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CB7A0B291171BE00A7719D /* LaunchScreen.storyboard */; };
+		88CB7A152911728E00A7719D /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CB7A142911728E00A7719D /* LineModel.swift */; };
+		88CB7A172911730B00A7719D /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CB7A162911730B00A7719D /* StateLinesMemento.swift */; };
+		88CB7A192911736100A7719D /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CB7A182911736100A7719D /* LinesManager.swift */; };
+		88CB7A1B291176D200A7719D /* CarrierState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CB7A1A291176D200A7719D /* CarrierState.swift */; };
+		88CB7A1D2911780B00A7719D /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CB7A1C2911780B00A7719D /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		88CB7A09291171BE00A7719D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88CB7A0C291171BE00A7719D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CB7A0E291171BE00A7719D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CB7A142911728E00A7719D /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+		88CB7A162911730B00A7719D /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
+		88CB7A182911736100A7719D /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
+		88CB7A1A291176D200A7719D /* CarrierState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierState.swift; sourceTree = "<group>"; };
+		88CB7A1C2911780B00A7719D /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				88CB7A00291171BD00A7719D /* AppDelegate.swift */,
 				88CB7A02291171BD00A7719D /* SceneDelegate.swift */,
 				88CB7A04291171BD00A7719D /* ViewController.swift */,
+				88CB7A162911730B00A7719D /* StateLinesMemento.swift */,
+				88CB7A182911736100A7719D /* LinesManager.swift */,
+				88CB7A1A291176D200A7719D /* CarrierState.swift */,
+				88CB7A1C2911780B00A7719D /* DrawView.swift */,
+				88CB7A142911728E00A7719D /* LineModel.swift */,
 				88CB7A06291171BD00A7719D /* Main.storyboard */,
 				88CB7A09291171BE00A7719D /* Assets.xcassets */,
 				88CB7A0B291171BE00A7719D /* LaunchScreen.storyboard */,
@@ -140,7 +155,12 @@
 			files = (
 				88CB7A05291171BD00A7719D /* ViewController.swift in Sources */,
 				88CB7A01291171BD00A7719D /* AppDelegate.swift in Sources */,
+				88CB7A1D2911780B00A7719D /* DrawView.swift in Sources */,
 				88CB7A03291171BD00A7719D /* SceneDelegate.swift in Sources */,
+				88CB7A1B291176D200A7719D /* CarrierState.swift in Sources */,
+				88CB7A152911728E00A7719D /* LineModel.swift in Sources */,
+				88CB7A172911730B00A7719D /* StateLinesMemento.swift in Sources */,
+				88CB7A192911736100A7719D /* LinesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
